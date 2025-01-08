@@ -5,7 +5,9 @@ https://github.com/user-attachments/assets/a1c5eab1-5361-4f44-b465-75777409ad3e
 
 <h3>How it works</h3>
 
-<p>When the plus button is clicked it triggers a post request to my express server where the requests body is parsed, the form data is read and inserted into my PostresSQL database hosted loclally (C). The express server reads the database and shows the data in the database with a checkbox and a edit button (R). If the user would like to edit an entry they click the pencil and a input string shows up where they can edit the current entry and confirm it. This sends another post request to the express server which then updates that entry in the database (U). If the user has done the task and want to remove it they click the checkbox and it sends a post request to the express server to delete the entry from the database (D). After any operation the user is redirected so that the page updates with the new data added, edited or removed.</p>
+<p>When the plus button is clicked it triggers a post request to my express server where the requests body is parsed, the form data is read and inserted into my PostresSQL database hosted loclally (C). The express server reads the database and shows the data in the database with a checkbox and a edit button (R). If the user would like to edit an entry they click the pencil and a input string shows up where they can edit the current entry and confirm it. This sends another post request to the express server which then updates that entry in the database (U). If the user has done the task and want to remove it they click the checkbox and it sends a post request to the express server to delete the entry from the database (D). After any operation the user is redirected so that the page updates with the new data added, edited or removed.
+
+Whenever buttons are pressed different html elements are hidden using javascript methods that can be seen at the bottom of the index.ejs file.</p>
 
 <h3>Running the project</h3>
 
