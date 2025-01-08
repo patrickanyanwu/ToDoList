@@ -11,7 +11,7 @@ Whenever buttons are pressed different html elements are hidden using javascript
 </p>
 <h3>How the frontend works</h3>
 
-<p>EJS was used to embedd the javascript onto the html page, include function was used to add my header and footer to the index.ejs file. Date module was used to ensure the year at the bottom s always up to date. CSS was used for styling also.</p>
+<p>EJS was used to embedd the javascript onto the html page, the include() function was used to add my header and footer to the index.ejs file. Date module was used to ensure the year at the bottom s always up to date. CSS was used for styling also.</p>
 <h3>Running the project</h3>
 
 <p>If youd like to run this project you would need to have node and PostreSQL installed on your computer. You would then use npm i to install all required packages from the node package manager. Once that is done you would need to open pgAdmin and create a database with one table called items with 2 columns, 1 being id which is the primary key represented as an integer and is serial to auto increment id for every entry and the second column being title represented as text. Once all of that is done you would need to change the password at the top of the index.js file to correspond with your PostgreSQL password and change the name of the database to the name of your database you made then run the file. </p>
